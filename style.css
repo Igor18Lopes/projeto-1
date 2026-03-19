@@ -1,0 +1,34 @@
+
+header img{
+    width:15%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:30px;
+}
+
+header h1{
+    text-align:center;
+}
+
+section{
+    border:2px solid grey;
+    border-radius:10px;
+    margin:15px;
+    padding:10px;
+}
+
+table, td{
+    border:2px solid grey;
+    border-collapse:collapse;
+    padding:10px;
+}
+
+table tr:nth-of-type(even){
+    background-color:red;
+}
+
+body{
+    max-width:900px;
+    margin:auto;
+}
